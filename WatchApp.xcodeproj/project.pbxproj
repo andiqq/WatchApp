@@ -15,6 +15,14 @@
 		E11884FB2800186200FE8FA6 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11884FA2800186200FE8FA6 /* ComplicationController.swift */; };
 		E11884FD2800186300FE8FA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E11884FC2800186300FE8FA6 /* Assets.xcassets */; };
 		E11885002800186300FE8FA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E11884FF2800186300FE8FA6 /* Preview Assets.xcassets */; };
+		E118851128001B0400FE8FA6 /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E118851028001B0400FE8FA6 /* ChartsView.swift */; };
+		E118851328001B2000FE8FA6 /* ColorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E118851228001B2000FE8FA6 /* ColorsView.swift */; };
+		E118851528001CFC00FE8FA6 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E118851428001CFC00FE8FA6 /* BarChartView.swift */; };
+		E118851728001D1800FE8FA6 /* WedgeChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E118851628001D1800FE8FA6 /* WedgeChartView.swift */; };
+		E118851928001D3100FE8FA6 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E118851828001D3100FE8FA6 /* RingView.swift */; };
+		E118851C28001DC900FE8FA6 /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E118851B28001DC900FE8FA6 /* ColorModel.swift */; };
+		E118851F28002BA200FE8FA6 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E118851E28002BA200FE8FA6 /* HeaderView.swift */; };
+		E118852128002BB200FE8FA6 /* CapsuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E118852028002BB200FE8FA6 /* CapsuleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +78,14 @@
 		E11884FC2800186300FE8FA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E11884FF2800186300FE8FA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E11885012800186300FE8FA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E118851028001B0400FE8FA6 /* ChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsView.swift; sourceTree = "<group>"; };
+		E118851228001B2000FE8FA6 /* ColorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsView.swift; sourceTree = "<group>"; };
+		E118851428001CFC00FE8FA6 /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
+		E118851628001D1800FE8FA6 /* WedgeChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WedgeChartView.swift; sourceTree = "<group>"; };
+		E118851828001D3100FE8FA6 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
+		E118851B28001DC900FE8FA6 /* ColorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
+		E118851E28002BA200FE8FA6 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		E118852028002BB200FE8FA6 /* CapsuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +129,8 @@
 		E11884F52800186200FE8FA6 /* WatchApp WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				E118851A28001DB400FE8FA6 /* Models */,
+				E118850F28001AEA00FE8FA6 /* Views */,
 				E11884F62800186200FE8FA6 /* ContentView.swift */,
 				E11884F82800186200FE8FA6 /* WatchAppApp.swift */,
 				E11884FA2800186200FE8FA6 /* ComplicationController.swift */,
@@ -129,6 +147,36 @@
 				E11884FF2800186300FE8FA6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E118850F28001AEA00FE8FA6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E118851D28002B8600FE8FA6 /* Supporting Views */,
+				E118851028001B0400FE8FA6 /* ChartsView.swift */,
+				E118851228001B2000FE8FA6 /* ColorsView.swift */,
+				E118851428001CFC00FE8FA6 /* BarChartView.swift */,
+				E118851628001D1800FE8FA6 /* WedgeChartView.swift */,
+				E118851828001D3100FE8FA6 /* RingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E118851A28001DB400FE8FA6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E118851B28001DC900FE8FA6 /* ColorModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E118851D28002B8600FE8FA6 /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				E118851E28002BA200FE8FA6 /* HeaderView.swift */,
+				E118852028002BB200FE8FA6 /* CapsuleView.swift */,
+			);
+			path = "Supporting Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +308,15 @@
 			files = (
 				E11884F72800186200FE8FA6 /* ContentView.swift in Sources */,
 				E11884F92800186200FE8FA6 /* WatchAppApp.swift in Sources */,
+				E118852128002BB200FE8FA6 /* CapsuleView.swift in Sources */,
+				E118851C28001DC900FE8FA6 /* ColorModel.swift in Sources */,
+				E118851328001B2000FE8FA6 /* ColorsView.swift in Sources */,
 				E11884FB2800186200FE8FA6 /* ComplicationController.swift in Sources */,
+				E118851F28002BA200FE8FA6 /* HeaderView.swift in Sources */,
+				E118851928001D3100FE8FA6 /* RingView.swift in Sources */,
+				E118851728001D1800FE8FA6 /* WedgeChartView.swift in Sources */,
+				E118851128001B0400FE8FA6 /* ChartsView.swift in Sources */,
+				E118851528001CFC00FE8FA6 /* BarChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
