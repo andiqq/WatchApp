@@ -18,7 +18,7 @@
 		E118851128001B0400FE8FA6 /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E118851028001B0400FE8FA6 /* ChartsView.swift */; };
 		E118851328001B2000FE8FA6 /* ColorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E118851228001B2000FE8FA6 /* ColorsView.swift */; };
 		E118851528001CFC00FE8FA6 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E118851428001CFC00FE8FA6 /* BarChartView.swift */; };
-		E118851728001D1800FE8FA6 /* WedgeChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E118851628001D1800FE8FA6 /* WedgeChartView.swift */; };
+		E118851728001D1800FE8FA6 /* WedgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E118851628001D1800FE8FA6 /* WedgeView.swift */; };
 		E118851928001D3100FE8FA6 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E118851828001D3100FE8FA6 /* RingView.swift */; };
 		E118851C28001DC900FE8FA6 /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E118851B28001DC900FE8FA6 /* ColorModel.swift */; };
 		E118851F28002BA200FE8FA6 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E118851E28002BA200FE8FA6 /* HeaderView.swift */; };
@@ -81,7 +81,7 @@
 		E118851028001B0400FE8FA6 /* ChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsView.swift; sourceTree = "<group>"; };
 		E118851228001B2000FE8FA6 /* ColorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsView.swift; sourceTree = "<group>"; };
 		E118851428001CFC00FE8FA6 /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
-		E118851628001D1800FE8FA6 /* WedgeChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WedgeChartView.swift; sourceTree = "<group>"; };
+		E118851628001D1800FE8FA6 /* WedgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WedgeView.swift; sourceTree = "<group>"; };
 		E118851828001D3100FE8FA6 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
 		E118851B28001DC900FE8FA6 /* ColorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
 		E118851E28002BA200FE8FA6 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
@@ -156,7 +156,7 @@
 				E118851028001B0400FE8FA6 /* ChartsView.swift */,
 				E118851228001B2000FE8FA6 /* ColorsView.swift */,
 				E118851428001CFC00FE8FA6 /* BarChartView.swift */,
-				E118851628001D1800FE8FA6 /* WedgeChartView.swift */,
+				E118851628001D1800FE8FA6 /* WedgeView.swift */,
 				E118851828001D3100FE8FA6 /* RingView.swift */,
 			);
 			path = Views;
@@ -314,7 +314,7 @@
 				E11884FB2800186200FE8FA6 /* ComplicationController.swift in Sources */,
 				E118851F28002BA200FE8FA6 /* HeaderView.swift in Sources */,
 				E118851928001D3100FE8FA6 /* RingView.swift in Sources */,
-				E118851728001D1800FE8FA6 /* WedgeChartView.swift in Sources */,
+				E118851728001D1800FE8FA6 /* WedgeView.swift in Sources */,
 				E118851128001B0400FE8FA6 /* ChartsView.swift in Sources */,
 				E118851528001CFC00FE8FA6 /* BarChartView.swift in Sources */,
 			);
